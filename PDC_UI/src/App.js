@@ -17,7 +17,7 @@ function App() {
   // };
   const user = useSelector(selectUser);
   useEffect(() => {
-    console.log('user is ', user);
+    console.log('user is this ', user);
   }, []);
   return (
     <BrowserRouter>
