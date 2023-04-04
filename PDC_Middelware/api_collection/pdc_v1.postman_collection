@@ -1,0 +1,129 @@
+{
+	"info": {
+		"_postman_id": "68e03e3a-3789-4da2-9452-11e077fdaae9",
+		"name": "PDC",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "9504183"
+	},
+	"item": [
+		{
+			"name": "loginViaOtp",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"phone\" : \"9756506071\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/auth/login",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"auth",
+						"login"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "fetchCurrentUser",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"user\" : \"62ecaa65ed38ed17a09ddc45\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/auth/fetchCurrentUser",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"auth",
+						"fetchCurrentUser"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "verifyPhoneOtp",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"otp\" : \"123456\",\r\n    \"userId\" : \"62ecaa65ed38ed17a09ddc45\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/auth/verifyPhoneOtp",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"auth",
+						"verifyPhoneOtp"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "registerViaEmail",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\" : \"Tandeep Pujari\",\r\n    \"email\" : \"pujari.tandeep2308@gmail.com\",\r\n    \"password\" : \"xyz\",\r\n    \"phoneNumber\" : \"9686871089\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/auth/registerViaEmail",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"auth",
+						"registerViaEmail"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

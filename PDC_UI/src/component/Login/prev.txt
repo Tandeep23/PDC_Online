@@ -1,0 +1,171 @@
+import React from 'react';
+import { useState } from 'react';
+import $ from 'jquery';
+import { useNavigate } from 'react-router-dom';
+// import OtpPage from '../OtpPage/OtpPage';
+import './Login.css';
+import OtpPage from '../OtpPage/OtpPage';
+import { useEffect } from 'react';
+import EmailSignIn from '../Email-SignIn/Email-SignIn';
+import EmailSignUp from '../EmailSignUp/EmailSignUp';
+function Login() {
+  const navigate = useNavigate();
+  const [value, setValue] = useState('');
+  const [isotp, setIsotp] = useState(false);
+  const [phone, setPhone] = useState('');
+  const [email, setEmail] = useState('');
+  const [click, setClick] = useState(false);
+  const [isEmailExist, setIsEmailExist] = useState(false);
+
+  const closeModal = (e) => {
+    e.preventDefault();
+    setClick(true);
+    document.querySelector('.modal').classList.add('hideModal');
+  };
+  useEffect(() => {}, [isotp, click]);
+  async function postData(url = '', data = {}) {
+    // Default options are marked with *
+    const response = await fetch(url, {
+      method: 'POST', // *GET, POST, PUT, DELETE, etc.
+      mode: 'cors', // no-cors, *cors, same-origin
+      cache: 'no-cache', // *default, no-cache, reload, force-cache, only-if-cached
+      credentials: 'same-origin', // include, *same-origin, omit
+      headers: {
+        'Content-Type': 'application/json',
+        // 'Content-Type': 'application/x-www-form-urlencoded',
+      },
+      redirect: 'follow', // manual, *follow, error
+      referrerPolicy: 'no-referrer', // no-referrer, *no-referrer-when-downgrade, origin, origin-when-cross-origin, same-origin, strict-origin, strict-origin-when-cross-origin, unsafe-url
+      body: JSON.stringify(data), // body data type must match "Content-Type" header
+    });
+    return response.json(); // parses JSON response into native JavaScript objects
+  }
+
+  const handleOtp = async (e) => {
+    e.preventDefault();
+    const phoneNo_pattern = new RegExp(/^\d{10}$/);
+    const email_pattern = new RegExp(
+      /^\w+([.-]?\w+)@\w+([.-]?\w+)(\.\w{2,3})+$/g
+    );
+
+    if (
+      value === '' ||
+      value === undefined ||
+      (!phoneNo_pattern.test(value) && !email_pattern.test(value))
+    ) {
+      return alert('Please enter a valid phone number or Email !');
+    } else if (phoneNo_pattern.test(value)) {
+      // API CALL FOR PHONE NO
+      console.log('phone is ', value);
+      await postData('http://35.165.105.151:3000/auth/login', {
+        phone: value,
+      })
+        .then((data) => {
+          console.log(data); // JSON data parsed by `data.json()` call
+          localStorage.clear();
+          localStorage.setItem('userId', data.data.userId);
+          localStorage.setItem('otp', 123456);
+          // $('.close-login-btn').trigger('click');
+          setIsotp(true);
+          setPhone(value);
+        })
+        .catch((error) => {
+          console.error('Error:', error);
+        });
+    } else {
+      console.log('here is call for email');
+      localStorage.clear();
+      setEmail(value);
+      setIsotp(true);
+      setIsEmailExist(true);
+      // $('.close-login-btn').trigger('click');
+
+      // await postData('http://35.165.105.151:3000/auth/checkIFExists', {
+      //   tag: 'email',
+      //   value: value,
+      // })
+      //   .then((data) => {
+      //     console.log(data.data); // JSON data parsed by `data.json()` call
+      //     let check = data.data;
+      //     localStorage.clear();
+      //     localStorage.setItem('email', value);
+      //     if (check === true) {
+      // setIsEmailExist(true);
+      //     } else {
+      //       setIsEmailExist(false);
+      //     }
+      // $('.close').trigger('click');
+      //   })
+      //   .catch((error) => {
+      //     console.error('Error:', error);
+      //   });
+    }
+  };
+  return (
+    <>
+      {isotp === true ? (
+        email !== '' ? (
+          isEmailExist === false ? (
+            <EmailSignUp />
+          ) : (
+            <EmailSignIn />
+          )
+        ) : (
+          <OtpPage />
+        )
+      ) : (
+        <div className='login-modal' id='modalLoginForm'>
+          <div className='modal-dialog' role='document'>
+            <div className='modal-content'>
+              <div className='modal-header text-center'>
+                <h5 className='modal-title w-100 font-weight-bold'>
+                  Login / SignUp
+                </h5>
+                <button
+                  type='button'
+                  className='close-login-btn btn'
+                  data-dismiss='modal'
+                  aria-label='Close'
+                  onClick={closeModal}
+                >
+                  <span aria-hidden='true'>&times;</span>
+                </button>
+              </div>
+              <div className='modal-body mx-4'>
+                <div className='md-form mb-1'>
+                  <i className='fas fa-envelope prefix grey-text'></i>
+                  <input
+                    type='text'
+                    id='defaultForm'
+                    value={value}
+                    onChange={(e) => setValue(e.target.value)}
+                    className='form-control validate'
+                    placeholder='Phone No / Email'
+                  />
+                  <label
+                    data-error='wrong'
+                    data-success='right'
+                    htmlFor='defaultForm'
+                  >
+                    {/* Your email */}
+                  </label>
+                </div>
+              </div>
+              <div className='modal-footer d-flex justify-content-center'>
+                <button
+                  onClick={handleOtp}
+                  id='otpBtn'
+                  className='btn btn-default'
+                >
+                  Continue
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      )}
+    </>
+  );
+}
+
+export default Login;

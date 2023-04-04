@@ -1,0 +1,15 @@
+              <div className='md-form mb-4'>
+                <i className='fas fa-lock prefix grey-text'></i>
+                <input
+                  type='password'
+                  id='defaultForm-pass'
+                  className='form-control validate'
+                />
+                <label
+                  data-error='wrong'
+                  data-success='right'
+                  for='defaultForm-pass'
+                >
+                  {/* Your password */}
+                </label>
+              </div>

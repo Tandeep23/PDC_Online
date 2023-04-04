@@ -1,0 +1,29 @@
+{
+    "name": "PDC",
+    "version": "1.0.0",
+    "description": "PDC Middleware Application",
+    "main": "./bin/www",
+    "scripts": {
+        "start": "node --max-old-space=7168 ./bin/www",
+        "dev" :"nodemon ./bin/www",
+        "test" : "nyc --reporter=text mocha --require mocha-supress-logs"
+    },
+    "author": "pujari.tandeep2308@gmail.com",
+    "dependencies": {
+        "cors": "^2.8.5",
+        "dotenv": "^8.2.0",
+        "express": "^4.17.1",
+        "fast-two-sms": "^3.0.0",
+        "jsonwebtoken": "^8.5.1",
+        "mongoose": "^5.12.3"
+    },
+    "engines": {
+        "node": ">=4"
+    },
+    "devDependencies": {
+        "eslint": "^4.4.1",
+        "eslint-config-strongloop": "^2.1.0",
+        "request": "^2.53.0",
+        "tap": "^0.7.1"
+    }
+}

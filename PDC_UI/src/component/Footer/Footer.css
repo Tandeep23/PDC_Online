@@ -1,0 +1,334 @@
+footer {
+  background: #209EA6;
+  color: #fff;
+  font-weight: 400;
+  font-family: 'freight-sans-pro', sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  letter-spacing: 0.05em;
+  clear: both;
+  height: 200px;
+ 
+}
+footer h4 {
+  font-family: 'freight-sans-pro', sans-serif;
+  font-size: 1.4em;
+  letter-spacing: 0.05em;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #fff;
+  text-align: center;
+  margin: 0 auto;
+  display: block;
+}
+footer .container-fluid {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 30px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.row {
+  display: flex;
+  margin-top: 50px;
+  margin-right: -15px;
+  margin-left: -15px;
+  justify-content: space-evenly;
+}
+@media (min-width: 992px) {
+  .col-md-3 {
+    width: 25%;
+  }
+}
+.col-md-3 {
+  position: relative;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+#fCol2 .textWidget a {
+  margin-top: 4px;
+}
+#fCol2 a {
+  display: block;
+}
+@media (min-width: 992px) {
+  footer .container-fluid a,
+  footer h4 {
+    text-align: left;
+  }
+}
+footer .container-fluid a,
+footer h4 {
+  color: #fff;
+  text-align: center;
+  margin: 0 auto;
+  display: block;
+}
+a {
+  -webkit-transition: color 0.5s ease;
+  transition: color 0.5s ease;
+  color: #337ab7;
+  text-decoration: none;
+  background-color: transparent;
+}
+.fixed #hrh-logo3417Widget859318 .inverted {
+  display: block !important;
+  visibility: visible !important;
+}
+.fixed #hrh-logo3417Widget859318 a.logo {
+  display: none !important;
+  visibility: hidden !important;
+}
+
+.fixed #hrh-logo3417Widget859318 .inverted {
+  display: block !important;
+  visibility: visible !important;
+}
+.fixed #hrh-logo3417Widget859318 a.logo {
+  display: none !important;
+  visibility: hidden !important;
+}
+#viz-socialiconsadaWidget855985 {
+  text-align: left;
+}
+@media (min-width: 992px) {
+  #fCol2 .viz-socialiconsadaWidget .footerSocial {
+    text-align: left !important;
+  }
+}
+footer .container-fluid a.signup {
+  background: url('https://www.petparadise.com/files/templates/1710/BoneButtonBG.png');
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  color: #337ab7;
+
+  height: 68px;
+  width: 146px;
+  padding: 21px;
+  text-align: center;
+}
+#viz-socialiconsadaWidget855985 a {
+  display: inline-block;
+  margin: 0 5px;
+  margin: 0 10px;
+}
+
+#fCol2 a {
+  display: block;
+}
+footer .footerSocial a {
+  background: 0;
+  color: white;
+}
+@media (min-width: 992px) {
+  footer .container-fluid a,
+  footer h4 {
+    text-align: left;
+  }
+}
+footer .footerSocial a {
+  background: white;
+  color: #337ab7;
+  height: 31px;
+  width: 31px;
+  text-align: center !important;
+  border-radius: 50%;
+  margin-left: 0 !important;
+  margin-top: 20px !important;
+  padding: 6px 5px;
+}
+footer .container-fluid a,
+footer h4 {
+  color: #fff;
+  text-align: center;
+  margin: 0 auto;
+  display: block;
+}
+a {
+  transition: color 0.5s ease;
+  color: #337ab7;
+  text-decoration: none;
+  background-color: transparent;
+}
+
+@media (min-width: 992px) {
+  footer .container-fluid a,
+  footer h4 {
+    text-align: left;
+  }
+}
+
+footer a.logo {
+  text-align: center;
+}
+footer .container-fluid a,
+footer h4 {
+  color: #fff;
+  text-align: center;
+  margin: 0 auto;
+  display: block;
+  float:bottom;
+}
+a {
+  color: #209EA6;
+  -webkit-transition: color 0.5s ease;
+  transition: color 0.5s ease;
+  color: #337ab7;
+  text-decoration: none;
+  background-color: transparent;
+}
+
+footer .logo img {
+  max-height: 125px;
+}
+.fadeIn {
+  -webkit-animation-name: fadeIn;
+  animation-name: fadeIn;
+}
+.animated {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+.animated {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+img,
+embed,
+object {
+  vertical-align: bottom;
+}
+img {
+  display: inline-block;
+  height: auto;
+  max-width: 100%;
+  vertical-align: middle;
+  border: 0;
+}
+
+#viz-socialiconsadaWidget855985 {
+  text-align: left;
+}
+#viz-socialiconsadaWidget855985 a {
+  display: inline-block;
+  margin: 0 5px;
+  margin: 0 10px;
+}
+
+.embeddedServiceHelpButton .helpButton .uiButton {
+  background-color: #ff8674;
+  font-family: 'Noto Sans', sans-serif !important;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 14px;
+  max-width: 15em;
+}
+.embeddedServiceHelpButton .helpButton .uiButton:focus {
+  outline: 1px solid #f44f3e;
+}
+.embeddedServiceHelpButton .helpButton {
+  height: 0 !important;
+}
+.embeddedServiceHelpButton .helpButton {
+  bottom: 125px;
+}
+.embeddedServiceHelpButton.embeddedServiceBottomTabBar .helpButton {
+  bottom: 125px;
+}
+@media (min-width: 992px) {
+  .embeddedServiceHelpButton .helpButton {
+    bottom: 0;
+  }
+  .embeddedServiceHelpButton .helpButton {
+    height: auto !important;
+  }
+}
+@font-face {
+  font-family: 'Salesforce Sans';
+  src: url('https://www.sfdcstatic.com/system/shared/common/assets/fonts/SalesforceSans/SalesforceSans-Regular.woff')
+      format('woff'),
+    url('https://www.sfdcstatic.com/system/shared/common/assets/fonts/SalesforceSans/SalesforceSans-Regular.ttf')
+      format('truetype');
+}
+
+#viz-navigationWidget859316 .nav > li {
+  float: none;
+}
+#custom-region-1 .viz-navigationWidget .fa {
+  color: #f9774a;
+  display: block;
+  font-size: 55px;
+}
+#viz-navigationWidget859316 .nav > li {
+  float: none;
+}
+#custom-region-1 .viz-navigationWidget .fa {
+  color: #f9774a;
+  display: block;
+  font-size: 55px;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.fa {
+  padding: 15px 10px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  background: transparent;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-facebook {
+  color: white;
+}
+
+.fa-twitter {
+  color: white;
+}
+
+.fa-google {
+  color: white;
+}
+
+.fa-linkedin {
+  color: white;
+}
+
+@media (max-width: 1200px) {
+  .row {
+    display: flex;
+    flex-direction: column;
+    margin-right: 0px;
+    margin-left: 0px;
+    align-items: center;
+    text-align: center;
+    justify-content: space-evenly;
+  }
+  .col-md-3 {
+    width: 100%;
+    margin: 30px auto;
+  }
+  .social-icons {
+    width: 50%;
+    margin: 5px auto;
+    justify-content: center;
+    text-align: center;
+  }
+}

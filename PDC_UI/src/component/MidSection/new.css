@@ -1,0 +1,708 @@
+  <div className='mid-section'>
+        <div className='slickCarousel text-center slick-initialized slick-slider'>
+          <button
+            type='button'
+            data-role='none'
+            className='slick-prev slick-arrow'
+            aria-label='Previous'
+            style={{ display: 'block' }}
+          >
+            Previous
+          </button>
+          <div aria-live='polite' className='slick-list draggable'>
+            <div
+              className='slick-track'
+              style={{
+                opacity: '1',
+                width: '6328px',
+                transform: 'translate3d(-1808px, 0px, 0px)',
+              }}
+            >
+              <div
+                className='slickSlide CTA3 enabled slick-slide slick-cloned'
+                style={{ width: '422px' }}
+                tabindex='-1'
+                role='option'
+                aria-labelledby='slick-slide22'
+                data-slick-index='-4'
+                aria-hidden='true'
+              >
+                <div className='item feature-img addImg loaded animated fadeIn'>
+                  <div className='layer hoverOff'>
+                    <div className='content'>
+                      <h3>Wellness Plans</h3>
+                      <div className='feature-content positionCenter'>
+                        <p>
+                          Our team of best-in-class veterinarians will always
+                          treat your pet like their own. Keep your pet's health
+                          a top priority with our monthly wellness plans!
+                        </p>
+                        <a
+                          role='button'
+                          className='btn btn-default visible'
+                          href='https://www.petparadise.com/monthly-wellness-plans.htm'
+                          target='_self'
+                          tabindex='-1'
+                        >
+                          Learn More
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                className='slickSlide CTA4 enabled slick-slide slick-cloned'
+                style={{ width: '422px' }}
+                tabindex='-1'
+                role='option'
+                aria-labelledby='slick-slide23'
+                data-slick-index='-3'
+                aria-hidden='true'
+              >
+                <div className='item feature-img addImg loaded animated fadeIn'>
+                  <div className='layer hoverOff'>
+                    <div className='content'>
+                      <h3>Our Story</h3>
+                      <div className='feature-content positionCenter'>
+                        <p>
+                          Like many great ideas, Pet Paradise sprung from a
+                          personal need. Founder Fred Goldsmith was looking for
+                          a place to board his Bichon Frise, Samantha. Not just
+                          any dog hotel would do!
+                        </p>
+                        <a
+                          role='button'
+                          className='btn btn-default visible'
+                          href='https://www.petparadise.com/our-story.htm'
+                          target='_self'
+                          tabindex='-1'
+                        >
+                          Learn More
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                className='slickSlide CTA5 enabled slick-slide slick-cloned'
+                style={{ width: '422px' }}
+                tabindex='-1'
+                role='option'
+                aria-labelledby='slick-slide24'
+                data-slick-index='-2'
+                aria-hidden='true'
+              >
+                <div className='item feature-img addImg loaded animated fadeIn'>
+                  <div className='layer hoverOff'>
+                    <div className='content'>
+                      <h3>Connected Care</h3>
+                      <div className='feature-content'>
+                        <p>
+                          Scratch the old days of traditional, tail-tucking
+                          veterinary care. We’re raising the bar for what it
+                          means to take your pet to the vet. Connected Care
+                          helps you keep up with your pet’s health and your busy
+                          schedule from the comfort of home.
+                        </p>
+                        <a
+                          role='button'
+                          className='btn btn-default visible'
+                          href='https://www.petparadise.com/veterinary-services.htm'
+                          target='_self'
+                          tabindex='-1'
+                        >
+                          Learn More
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                className='slickSlide CTA6 CTALast enabled slick-slide slick-cloned'
+                style={{ width: '422px' }}
+                tabindex='-1'
+                role='option'
+                aria-labelledby='slick-slide25'
+                data-slick-index='-1'
+                aria-hidden='true'
+              >
+                <div className='item feature-img addImg loaded animated fadeIn'>
+                  <div className='layer hoverOff'>
+                    <div className='content'>
+                      <h3>Live Webcams</h3>
+                      <div className='feature-content'>
+                        <p>
+                          Check in on your pet and watch them playing, snoozing,
+                          or cruising the yard. Our live webcams are
+                          strategically placed so you can see what they're up to
+                          any time of day.
+                        </p>
+                        <a
+                          role='button'
+                          className='btn btn-default visible'
+                          href='https://www.petparadise.com/live-webcams.htm'
+                          target='_self'
+                          tabindex='-1'
+                        >
+                          View Webcams
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                className='slickSlide CTA1 enabled slick-slide slick-current slick-active'
+                style={{ width: '422px' }}
+                tabindex='-1'
+                role='option'
+                aria-labelledby='slick-slide20'
+                data-slick-index='0'
+                aria-hidden='false'
+              >
+                <div className='item feature-img addImg loaded animated fadeIn'>
+                  <div className='layer hoverOff'>
+                    <div className='content'>
+                      <h3>NewDay Veterinary Care</h3>
+                      <div className='feature-content positionCenter'>
+                        <p>
+                          NewDay Veterinary Care, previously known as Pet
+                          Paradise Veterinary Care, offers compassionate,
+                          comprehensive care from routine checkups and
+                          vaccinations to diagnostics and procedures.
+                        </p>
+                        <a
+                          role='button'
+                          className='btn btn-default visible'
+                          href='https://www.petparadise.com/schedule-an-appointment.htm'
+                          target='_self'
+                          tabindex='0'
+                        >
+                          SCHEDULE AN APPOINTMENT
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                className='slickSlide CTA2 enabled slick-slide slick-active'
+                style={{ width: '422px' }}
+                tabindex='-1'
+                role='option'
+                aria-labelledby='slick-slide21'
+                data-slick-index='1'
+                aria-hidden='false'
+              >
+                <div className='item feature-img addImg loaded animated fadeIn'>
+                  <div className='layer hoverOn'>
+                    <div className='content'>
+                      <h3>Get Acquainted Day</h3>
+                      <div className='feature-content positionNone'>
+                        <p>
+                          We fit an entire summer vacation into every day of
+                          camp in Paradise. First-time customers can meet our
+                          team, tour the resort, and get a free day of camp, our
+                          treat.
+                        </p>
+                        <a
+                          role='button'
+                          className='btn btn-default visible'
+                          href='https://www.petparadise.com/get-acquainted-day.htm'
+                          target='_self'
+                          tabindex='0'
+                        >
+                          Enjoy Your 1st Camp Day Free
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                className='slickSlide CTA3 enabled slick-slide slick-active'
+                style={{ width: '422px' }}
+                tabindex='-1'
+                role='option'
+                aria-labelledby='slick-slide22'
+                data-slick-index='2'
+                aria-hidden='false'
+              >
+                <div className='item feature-img addImg loaded animated fadeIn'>
+                  <div className='layer hoverOff'>
+                    <div className='content'>
+                      <h3>Wellness Plans</h3>
+                      <div className='feature-content positionCenter'>
+                        <p>
+                          Our team of best-in-class veterinarians will always
+                          treat your pet like their own. Keep your pet's health
+                          a top priority with our monthly wellness plans!
+                        </p>
+                        <a
+                          role='button'
+                          className='btn btn-default visible'
+                          href='https://www.petparadise.com/monthly-wellness-plans.htm'
+                          target='_self'
+                          tabindex='0'
+                        >
+                          Learn More
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                className='slickSlide CTA4 enabled slick-slide slick-active'
+                style={{ width: '422px' }}
+                tabindex='-1'
+                role='option'
+                aria-labelledby='slick-slide23'
+                data-slick-index='3'
+                aria-hidden='false'
+              >
+                <div className='item feature-img addImg loaded animated fadeIn'>
+                  <div className='layer hoverOff'>
+                    <div className='content'>
+                      <h3>Our Story</h3>
+                      <div className='feature-content positionCenter'>
+                        <p>
+                          Like many great ideas, Pet Paradise sprung from a
+                          personal need. Founder Fred Goldsmith was looking for
+                          a place to board his Bichon Frise, Samantha. Not just
+                          any dog hotel would do!
+                        </p>
+                        <a
+                          role='button'
+                          className='btn btn-default visible'
+                          href='https://www.petparadise.com/our-story.htm'
+                          target='_self'
+                          tabindex='0'
+                        >
+                          Learn More
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                className='slickSlide CTA5 enabled slick-slide'
+                style={{ width: '422px' }}
+                tabindex='-1'
+                role='option'
+                aria-labelledby='slick-slide24'
+                data-slick-index='4'
+                aria-hidden='true'
+              >
+                <div className='item feature-img addImg loaded animated fadeIn'>
+                  <div className='layer hoverOff'>
+                    <div className='content'>
+                      <h3>Connected Care</h3>
+                      <div className='feature-content positionCenter'>
+                        <p>
+                          Scratch the old days of traditional, tail-tucking
+                          veterinary care. We’re raising the bar for what it
+                          means to take your pet to the vet. Connected Care
+                          helps you keep up with your pet’s health and your busy
+                          schedule from the comfort of home.
+                        </p>
+                        <a
+                          role='button'
+                          className='btn btn-default visible'
+                          href='https://www.petparadise.com/veterinary-services.htm'
+                          target='_self'
+                          tabindex='-1'
+                        >
+                          Learn More
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                className='slickSlide CTA6 CTALast enabled slick-slide'
+                style={{ width: '422px' }}
+                tabindex='-1'
+                role='option'
+                aria-labelledby='slick-slide25'
+                data-slick-index='5'
+                aria-hidden='true'
+              >
+                <div className='item feature-img addImg loaded animated fadeIn'>
+                  <div className='layer hoverOff'>
+                    <div className='content'>
+                      <h3>Live Webcams</h3>
+                      <div className='feature-content positionCenter'>
+                        <p>
+                          Check in on your pet and watch them playing, snoozing,
+                          or cruising the yard. Our live webcams are
+                          strategically placed so you can see what they're up to
+                          any time of day.
+                        </p>
+                        <a
+                          role='button'
+                          className='btn btn-default visible'
+                          href='https://www.petparadise.com/live-webcams.htm'
+                          target='_self'
+                          tabindex='-1'
+                        >
+                          View Webcams
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                className='slickSlide CTA1 enabled slick-slide slick-cloned'
+                style={{ width: '422px' }}
+                tabindex='-1'
+                role='option'
+                aria-labelledby='slick-slide20'
+                data-slick-index='6'
+                aria-hidden='true'
+              >
+                <div className='item feature-img addImg loaded animated fadeIn'>
+                  <div className='layer hoverOff'>
+                    <div className='content'>
+                      <h3>NewDay Veterinary Care</h3>
+                      <div className='feature-content positionCenter'>
+                        <p>
+                          NewDay Veterinary Care, previously known as Pet
+                          Paradise Veterinary Care, offers compassionate,
+                          comprehensive care from routine checkups and
+                          vaccinations to diagnostics and procedures.
+                        </p>
+                        <a
+                          role='button'
+                          className='btn btn-default visible'
+                          href='https://www.petparadise.com/schedule-an-appointment.htm'
+                          target='_self'
+                          tabindex='-1'
+                        >
+                          SCHEDULE AN APPOINTMENT
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                className='slickSlide CTA2 enabled slick-slide slick-cloned'
+                style={{ width: '422px' }}
+                tabindex='-1'
+                role='option'
+                aria-labelledby='slick-slide21'
+                data-slick-index='7'
+                aria-hidden='true'
+              >
+                <div className='item feature-img addImg loaded animated fadeIn'>
+                  <div className='layer hoverOff'>
+                    <div className='content'>
+                      <h3>Get Acquainted Day</h3>
+                      <div className='feature-content positionCenter'>
+                        <p>
+                          We fit an entire summer vacation into every day of
+                          camp in Paradise. First-time customers can meet our
+                          team, tour the resort, and get a free day of camp, our
+                          treat.
+                        </p>
+                        <a
+                          role='button'
+                          className='btn btn-default visible'
+                          href='https://www.petparadise.com/get-acquainted-day.htm'
+                          target='_self'
+                          tabindex='-1'
+                        >
+                          Enjoy Your 1st Camp Day Free
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                className='slickSlide CTA3 enabled slick-slide slick-cloned'
+                style={{ width: '422px' }}
+                tabindex='-1'
+                role='option'
+                aria-labelledby='slick-slide22'
+                data-slick-index='8'
+                aria-hidden='true'
+              >
+                <div className='item feature-img addImg loaded animated fadeIn'>
+                  <div className='layer hoverOff'>
+                    <div className='content'>
+                      <h3>Wellness Plans</h3>
+                      <div className='feature-content positionCenter'>
+                        <p>
+                          Our team of best-in-class veterinarians will always
+                          treat your pet like their own. Keep your pet's health
+                          a top priority with our monthly wellness plans!
+                        </p>
+                        <a
+                          role='button'
+                          className='btn btn-default visible'
+                          href='https://www.petparadise.com/monthly-wellness-plans.htm'
+                          target='_self'
+                          tabindex='-1'
+                        >
+                          Learn More
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                className='slickSlide CTA4 enabled slick-slide slick-cloned'
+                style={{ width: '422px' }}
+                tabindex='-1'
+                role='option'
+                aria-labelledby='slick-slide23'
+                data-slick-index='9'
+                aria-hidden='true'
+              >
+                <div className='item feature-img addImg loaded animated fadeIn'>
+                  <div className='layer hoverOff'>
+                    <div className='content'>
+                      <h3>Our Story</h3>
+                      <div className='feature-content positionCenter'>
+                        <p>
+                          Like many great ideas, Pet Paradise sprung from a
+                          personal need. Founder Fred Goldsmith was looking for
+                          a place to board his Bichon Frise, Samantha. Not just
+                          any dog hotel would do!
+                        </p>
+                        <a
+                          role='button'
+                          className='btn btn-default visible'
+                          href='https://www.petparadise.com/our-story.htm'
+                          target='_self'
+                          tabindex='-1'
+                        >
+                          Learn More
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <button
+            type='button'
+            data-role='none'
+            className='slick-next slick-arrow'
+            aria-label='Next'
+            style={{ display: 'block' }}
+          >
+            Next
+          </button>
+        </div>
+      </div>
+
+
+.PPCTAHoverSliderWidget863973 .slickCarousel {
+  margin: 0;
+}
+
+.text-center {
+  text-align: center;
+}
+.slick-slider {
+  position: relative;
+  display: block;
+  box-sizing: border-box;
+
+  user-select: none;
+
+  touch-action: pan-y;
+  -webkit-tap-highlight-color: transparent;
+}
+.PPCTAHoverSliderWidget863973 .slickCarousel .slick-prev {
+  left: 25px;
+}
+.PPCTAHoverSliderWidget863973 .slickCarousel .slick-prev {
+  left: -35px;
+}
+.PPCTAHoverSliderWidget863973 .slickCarousel .slick-prev,
+.PPCTAHoverSliderWidget863973 .slickCarousel .slick-next {
+  height: auto;
+  top: 45%;
+  width: auto;
+  z-index: 1;
+}
+@media (min-width: 768px) {
+  .PPCTAHoverSliderWidget .slickCarousel .slick-prev,
+  .PPCTAHoverSliderWidget .slickCarousel .slick-next {
+    display: block !important;
+  }
+}
+.PPCTAHoverSliderWidget .slickCarousel .slick-prev,
+.PPCTAHoverSliderWidget .slickCarousel .slick-next {
+  display: none !important;
+}
+.slick-prev {
+  left: -25px;
+}
+.slick-prev,
+.slick-next {
+  font-size: 0;
+  line-height: 0;
+  position: absolute;
+  top: 50%;
+  display: block;
+  width: 20px;
+  height: 20px;
+  padding: 0;
+  -webkit-transform: translate(0, -50%);
+  -ms-transform: translate(0, -50%);
+  transform: translate(0, -50%);
+  cursor: pointer;
+  color: transparent;
+  border: 0;
+  outline: 0;
+  background: transparent;
+}
+
+.slick-list {
+  position: relative;
+  display: block;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+.slick-track {
+  position: relative;
+  top: 0;
+  left: 0;
+  display: block;
+}
+@media (min-width: 992px) {
+  .PPCTAHoverSliderWidget863973 .slickSlide {
+    margin: 15px;
+  }
+}
+
+.PPCTAHoverSliderWidget863973 .slickSlide {
+  margin: 4px;
+}
+.slick-initialized .slick-slide {
+  display: block;
+}
+.slick-slide {
+  float: left;
+  height: 100%;
+  min-height: 1px;
+}
+.PPCTAHoverSliderWidget863973 .slickCarousel .slick-next {
+  right: 25px;
+}
+.PPCTAHoverSliderWidget863973 .slickCarousel .slick-next {
+  right: -35px;
+}
+.PPCTAHoverSliderWidget863973 .slickCarousel .slick-prev,
+.PPCTAHoverSliderWidget863973 .slickCarousel .slick-next {
+  height: auto;
+  top: 45%;
+  width: auto;
+  z-index: 1;
+}
+@media (min-width: 768px) {
+  .PPCTAHoverSliderWidget .slickCarousel .slick-prev,
+  .PPCTAHoverSliderWidget .slickCarousel .slick-next {
+    display: block !important;
+  }
+}
+.PPCTAHoverSliderWidget .slickCarousel .slick-prev,
+.PPCTAHoverSliderWidget .slickCarousel .slick-next {
+  display: none !important;
+}
+.slick-next {
+  right: -25px;
+}
+.slick-prev,
+.slick-next {
+  font-size: 0;
+  line-height: 0;
+  position: absolute;
+  top: 50%;
+  display: block;
+  width: 20px;
+  height: 20px;
+  padding: 0;
+  -webkit-transform: translate(0, -50%);
+  -ms-transform: translate(0, -50%);
+  transform: translate(0, -50%);
+  cursor: pointer;
+  color: transparent;
+  border: 0;
+  outline: 0;
+  background: transparent;
+}
+
+.PPCTAHoverSliderWidget863973 .CTA3 .feature-img.loaded {
+  background-image: url('https://www.petparadise.com/files/4859/Wellness_Plans_Pet_Paradise.png');
+}
+
+.PPCTAHoverSliderWidget863973 .CTA4 .feature-img.loaded {
+  background-image: url('https://www.petparadise.com/files/4859/pet_care_caretaker.jpg');
+}
+
+.PPCTAHoverSliderWidget863973 .CTA5 .feature-img.loaded {
+  background-image: url('https://www.petparadise.com/files/4859/Connected_Care_Pet_Paradise.png');
+}
+
+.PPCTAHoverSliderWidget863973 .CTA6 .feature-img.loaded {
+  background-image: url('https://www.petparadise.com/files/4859/Puppy_playtime.jpg');
+}
+
+.PPCTAHoverSliderWidget863973 .CTA1 .feature-img.loaded {
+  background-image: url('https://www.petparadise.com/files/4859/NewDay_Veterinary_Care_Homepage_Callout.jpg');
+}
+
+.PPCTAHoverSliderWidget863973 .CTA2 .feature-img.loaded {
+  background-image: url('https://www.petparadise.com/files/4859/Pet_Paradise_GAD_BC2.jpg');
+}
+
+.PPCTAHoverSliderWidget863973 .CTA3 .feature-img.loaded {
+  background-image: url('https://www.petparadise.com/files/4859/Wellness_Plans_Pet_Paradise.png');
+}
+
+.PPCTAHoverSliderWidget863973 .CTA4 .feature-img.loaded {
+  background-image: url('https://www.petparadise.com/files/4859/pet_care_caretaker.jpg');
+}
+
+.PPCTAHoverSliderWidget863973 .CTA5 .feature-img.loaded {
+  background-image: url('https://www.petparadise.com/files/4859/Connected_Care_Pet_Paradise.png');
+}
+
+.PPCTAHoverSliderWidget863973 .CTA6 .feature-img.loaded {
+  background-image: url('https://www.petparadise.com/files/4859/Puppy_playtime.jpg');
+}
+
+.PPCTAHoverSliderWidget863973 .CTA1 .feature-img.loaded {
+  background-image: url('https://www.petparadise.com/files/4859/NewDay_Veterinary_Care_Homepage_Callout.jpg');
+}
+
+.PPCTAHoverSliderWidget863973 .CTA2 .feature-img.loaded {
+  background-image: url('https://www.petparadise.com/files/4859/Pet_Paradise_GAD_BC2.jpg');
+}
+
+.PPCTAHoverSliderWidget863973 .CTA2 .feature-img.loaded {
+  background-image: url('https://www.petparadise.com/files/4859/Pet_Paradise_GAD_BC2.jpg');
+}
+
+.PPCTAHoverSliderWidget863973 .CTA3 .feature-img.loaded {
+  background-image: url('https://www.petparadise.com/files/4859/Wellness_Plans_Pet_Paradise.png');
+}
+
+.PPCTAHoverSliderWidget863973 .CTA4 .feature-img.loaded {
+  background-image: url('https://www.petparadise.com/files/4859/pet_care_caretaker.jpg');
+}
